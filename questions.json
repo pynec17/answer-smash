@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Which London Underground line is represented in grey on the Tube map?",
+    "image": "images/lee-mack.jpg",
+    "answer": "Jubilee Mack"
+  },
+  {
+    "question": "Which Motown singer fronted The Supremes?",
+    "image": "images/ross-geller.jpg",
+    "answer": "Diana Ross Geller"
+  },
+  {
+    "question": "What groovy 1960s decoration contains coloured wax that floats up and down in heated liquid?",
+    "image": "images/amplifier.jpg",
+    "answer": "Lava Lamplifier"
+  },
+  {
+    "question": "What tequila-based cocktail is traditionally served in a salt-rimmed glass?",
+    "image": "images/rita-ora.jpg",
+    "answer": "Margarita Ora"
+  },
+  {
+    "question": "What device amplifies your voice when performing on stage?",
+    "image": "images/phone-box.jpg",
+    "answer": "Microphone Box"
+  },
+  {
+    "question": "What cosmetic product is applied to eyelashes to make them appear longer and thicker?",
+    "image": "images/cara-delevingne.jpg",
+    "answer": "Mascara Delevingne"
+  },
+  {
+    "question": "What spiral-shaped tool is used to open wine bottles?",
+    "image": "images/screwdriver.jpg",
+    "answer": "Corkscrewdriver"
+  },
+  {
+    "question": "What straw figure is placed in fields to frighten birds away from crops?",
+    "image": "images/crowbar.jpg",
+    "answer": "Scarecrowbar"
+  }
+]

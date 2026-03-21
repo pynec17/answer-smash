@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer Smash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="menu-screen" class="screen">
+            <h1>Answer Smash</h1>
+            <p class="subtitle">Based on Richard Osman's House of Games</p>
+            <div class="menu-buttons">
+                <button id="play-btn">Play</button>
+                <button id="how-to-play-btn" class="secondary">How to Play</button>
+            </div>
+        </div>
+
+        <div id="how-to-play-screen" class="screen hidden">
+            <h1>How to Play</h1>
+            <div class="instructions">
+                <p>You'll be shown a <strong>trivia question</strong> and a <strong>picture</strong>.</p>
+                <p>The answer to the question overlaps with the name of what's in the picture.</p>
+                <p>Smash them together to get the answer!</p>
+                <div class="example">
+                    <p class="example-label">Example</p>
+                    <p>Q: "Which London Underground line is represented in grey on the Tube map?"</p>
+                    <p>Picture: <strong>Lee Mack</strong></p>
+                    <p>Trivia answer: <strong>Jubilee</strong></p>
+                    <p>Answer Smash: <strong>Jubilee Mack</strong></p>
+                </div>
+            </div>
+            <button id="back-from-help-btn" class="secondary">Back</button>
+        </div>
+
+        <div id="game-screen" class="screen hidden">
+            <div id="game-header">
+                <button id="menu-btn" class="small secondary">Menu</button>
+                <div id="score">Score: <span id="score-value">0</span> / <span id="total-value">0</span></div>
+            </div>
+
+            <div id="quiz-area">
+                <p id="question-text"></p>
+                <img id="question-image" src="" alt="Who is this?">
+                <div id="input-area">
+                    <input type="text" id="answer-input" placeholder="Type your answer..." autocomplete="off">
+                    <button id="submit-btn">Submit</button>
+                </div>
+                <p id="feedback"></p>
+                <button id="next-btn" class="hidden">Next Question</button>
+            </div>
+
+            <div id="summary" class="hidden">
+                <h2>Quiz Complete!</h2>
+                <p>You scored <span id="final-score"></span> out of <span id="final-total"></span></p>
+                <div class="menu-buttons">
+                    <button id="restart-btn">Play Again</button>
+                    <button id="summary-menu-btn" class="secondary">Main Menu</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

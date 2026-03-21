@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #1a1a2e;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #e2b714;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu-buttons button {
+    width: 200px;
+}
+
+/* Game header */
+#game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#score {
+    font-size: 1.1rem;
+    color: #aaa;
+}
+
+/* Questions */
+#question-text {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.4;
+}
+
+#question-image {
+    max-width: min(280px, 80vw);
+    max-height: min(280px, 80vw);
+    border-radius: 8px;
+    border: 3px solid #e2b714;
+    margin-bottom: 1.2rem;
+    object-fit: cover;
+}
+
+#input-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#answer-input {
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background: #16213e;
+    color: #eee;
+    width: min(300px, 100%);
+}
+
+#answer-input:focus {
+    outline: none;
+    border-color: #e2b714;
+}
+
+/* Buttons */
+button {
+    padding: 0.6rem 1.5rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #e2b714;
+    color: #1a1a2e;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #c9a012;
+}
+
+button.secondary {
+    background: transparent;
+    border: 2px solid #e2b714;
+    color: #e2b714;
+}
+
+button.secondary:hover {
+    background: rgba(226, 183, 20, 0.15);
+}
+
+button.small {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+}
+
+/* Feedback */
+#feedback {
+    font-size: 1.2rem;
+    min-height: 1.5em;
+    margin-bottom: 1rem;
+}
+
+#feedback.correct {
+    color: #4caf50;
+}
+
+#feedback.incorrect {
+    color: #f44336;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Summary */
+#summary h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e2b714;
+}
+
+#summary p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* How to play */
+.instructions {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.instructions p {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+.example {
+    background: #16213e;
+    border-left: 3px solid #e2b714;
+    padding: 1rem 1.2rem;
+    margin-top: 1.2rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.example-label {
+    color: #e2b714;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}

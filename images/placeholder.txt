@@ -1,0 +1,2 @@
+Add your person images to this folder (e.g. lee-mack.jpg).
+Then reference them in questions.json as "images/filename.jpg".
